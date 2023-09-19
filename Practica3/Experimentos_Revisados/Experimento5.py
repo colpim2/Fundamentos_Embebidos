@@ -1,5 +1,12 @@
 #########################################################
-# Parpadeo gradual
+# 1 Led parpadeo gradual con PWM
+
+# @Author:
+#   -Castillo Montes Pamela
+#   -Cruz Cedillo Daniel Alejandro
+#   -Hernández Jaimes Rogelio Yael
+
+# @Date: 12/09/2023
 #########################################################
 
 import RPi.GPIO as GPIO     # Librería de control GPIO de Raspberry Pi
@@ -40,8 +47,3 @@ while flag:
     flag = False
     pwm.stop()  # Detener el PWM al salir
     GPIO.cleanup()    # Reiniciar los puertos GPIO (cambian de salida a entrada)
-
-
-
-
-#Revisado 

@@ -1,5 +1,12 @@
 #########################################################
 # 7 Leds en marquesina de Izquierda a derecha
+
+# @Author:
+#   -Castillo Montes Pamela
+#   -Cruz Cedillo Daniel Alejandro
+#   -Hernández Jaimes Rogelio Yael
+
+# @Date: 12/09/2023
 #########################################################
 
 # === Librerias ===
@@ -26,7 +33,3 @@ while True:     # Bucle infinito
         GPIO.output(i, GPIO.HIGH)     # Enciende el led
         sleep(0.5)
         GPIO.output(i, GPIO.LOW)      # Apaga el led
-        
-
-
-#Revisado 

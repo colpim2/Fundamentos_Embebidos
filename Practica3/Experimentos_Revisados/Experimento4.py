@@ -1,13 +1,13 @@
-#!/usr/bin/env python3
-# ## ###############################################
-#
-# pwm.py
-# Blinks a led on pin 32 using Raspberry Pi
-#
-# Autor: Mauricio Matamoros
-# License: MIT
-#
-# ## ###############################################
+#########################################################
+# 7 Leds en marquesina Ping-Pong
+
+# @Author:
+#   -Castillo Montes Pamela
+#   -Cruz Cedillo Daniel Alejandro
+#   -Hernández Jaimes Rogelio Yael
+
+# @Date: 12/09/2023
+#########################################################
 
 # Future imports (Python 2.7 compatibility)
 from __future__ import absolute_import
@@ -65,6 +65,3 @@ hilo1.join()
 hilo2.join()
 
 print("Fin de programa")
-
-
-#Revisado 

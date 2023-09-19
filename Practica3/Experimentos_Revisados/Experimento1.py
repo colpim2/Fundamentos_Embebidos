@@ -1,5 +1,12 @@
 #########################################################
 # 7 Leds parpadentes usando la GPIO de la Raspberry Pi
+
+# @Author:
+#   -Castillo Montes Pamela
+#   -Cruz Cedillo Daniel Alejandro
+#   -Hernández Jaimes Rogelio Yael
+
+# @Date: 12/09/2023
 #########################################################
 
 # === Librerias ===
@@ -27,8 +34,3 @@ while True:     # Bucle infinito
     sleep(0.5)
     for i in gpiout:
         GPIO.output(i, GPIO.LOW)      # Apaga el led
-
-
-
-
-#Revisado 
